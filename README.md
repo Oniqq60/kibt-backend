@@ -21,10 +21,12 @@ internal\service\lead.go строчка 25
 ```
 Вместо sales@kibt.ru вставить почту получателя
 
+```bash
 Так же в .env изменить переменные (SMTP_USER SMTP_PASS SMTP_FROM) на свои 
 SMTP_USER - почта от куда отправляються уведомления
 SMTP_PASS - app password (для этого нужно включить двухфакторную аунтефикацию и можно будет поставить app password)
 SMTP_FROM - изменить почту в ковычках на SMTP_USER
+```
 
 ## Быстрый старт (локально)
 
