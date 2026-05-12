@@ -1,0 +1,26 @@
+# Go binaries
+server
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & temp
+*.log
+temp/
+tmp/
+
+# Dependencies (if vendor used)
+# vendor/
