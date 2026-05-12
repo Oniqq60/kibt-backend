@@ -165,7 +165,9 @@ Response 429 Too Many Requests:
 ```
 
 ### 3. Status Codes:
+```bash
 201 Created - заявка создана
 400 Bad Request - ошибка валидации
 429 Too Many Requests - превышен лимит запросов
 500 Internal Server Error - ошибка сервера
+```
