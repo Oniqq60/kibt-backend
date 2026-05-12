@@ -19,7 +19,7 @@ Go-сервис для приема заявок, валидации, сохра
 ```bash
 internal\service\lead.go строчка 25
 ```
-Вместо sales@kibt.ru вставить почту получателя
+Вместо sales@kibt.ru вставить почту получателя (админа)
 
 ```bash
 Так же в .env изменить переменные (SMTP_USER SMTP_PASS SMTP_FROM) на свои 
@@ -56,6 +56,7 @@ RATE_LIMIT_RPS=10 #  Пропуск запросов в секунду от од
 RATE_LIMIT_BURST=20 # Максимальный размер ведра с токенами
 LOG_LEVEL=info
 ```
+Или перименовать .env.example и .env
 
 3. Запуск сервера
 go run cmd/server/main.go
